@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>A Sustentabilidade no Agronegócio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <script defer src="script.js"></script>
+</head>
+
+<body>
+
+  <!-- NAV -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">🌱 Agro Sustentável</div>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Início</a></li>
+        <li><a href="#diaadia">Dia a Dia</a></li>
+        <li><a href="#economia">Economia</a></li>
+        <li><a href="#desafios">Desafios</a></li>
+        <li><a href="#tecnologia">Tecnologia</a></li>
+        <li><a href="#quiz">Quiz</a></li>
+      </ul>
+
+      <div class="menu-toggle" id="menuToggle">☰</div>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Agro Forte. Futuro Sustentável.</h1>
+      <p>Produzindo alimentos, preservando recursos e construindo o futuro.</p>
+      <a href="#diaadia" class="btn">Explorar</a>
+    </div>
+  </section>
+
+  <!-- DIA A DIA -->
+  <section id="diaadia" class="section">
+    <h2>O Agro no seu Dia a Dia</h2>
+    <div class="grid">
+      <div class="card">☕ Café</div>
+      <div class="card">🍞 Pão</div>
+      <div class="card">🥛 Leite</div>
+      <div class="card">👕 Roupas</div>
+      <div class="card">⛽ Biocombustíveis</div>
+    </div>
+  </section>
+
+  <!-- ECONOMIA -->
+  <section id="economia" class="section dark">
+    <h2>Importância Econômica</h2>
+
+    <div class="stats">
+      <div class="stat">🌾 Produção de alimentos</div>
+      <div class="stat">👷 Geração de empregos</div>
+      <div class="stat">🚢 Exportações</div>
+      <div class="stat">📈 Desenvolvimento econômico</div>
+    </div>
+  </section>
+
+  <!-- DESAFIOS -->
+  <section id="desafios" class="section">
+    <h2>Desafios Ambientais</h2>
+
+    <div class="grid">
+      <div class="card img-card">
+        <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6"/>
+        <h3>Desmatamento</h3>
+        <p>Perda de biodiversidade e desequilíbrio ecológico.</p>
+      </div>
+
+      <div class="card img-card">
+        <img src="https://images.unsplash.com/photo-1581091870622-3c8f1a8f8c2a"/>
+        <h3>Consumo de Água</h3>
+        <p>Uso intensivo de recursos hídricos na produção.</p>
+      </div>
+
+      <div class="card img-card">
+        <img src="https://images.unsplash.com/photo-1509386177310-2e4e4c9c6d1d"/>
+        <h3>Emissão de Carbono</h3>
+        <p>Impacto das máquinas e produção agroindustrial.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- TECNOLOGIA -->
+  <section id="tecnologia" class="section dark">
+    <h2>Tecnologia e Sustentabilidade</h2>
+
+    <div class="grid">
+      <div class="card hover">🚜 Agricultura de Precisão</div>
+      <div class="card hover">💧 Irrigação Inteligente</div>
+      <div class="card hover">🚁 Drones Agrícolas</div>
+      <div class="card hover">☀️ Energia Solar</div>
+    </div>
+  </section>
+
+  <!-- SOLUÇÕES -->
+  <section class="section">
+    <h2>Soluções para o Futuro</h2>
+
+    <div class="before-after">
+      <div>
+        <h3>Antes</h3>
+        <p>Uso excessivo do solo e recursos naturais.</p>
+      </div>
+
+      <div>
+        <h3>Depois</h3>
+        <p>Produção sustentável com equilíbrio ambiental.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CURIOSIDADES -->
+  <section class="section dark">
+    <h2>Você Sabia?</h2>
+
+    <div class="grid">
+      <div class="card">🌱 O Brasil é um dos maiores produtores agrícolas do mundo.</div>
+      <div class="card">💧 A agricultura consome cerca de 70% da água doce global.</div>
+      <div class="card">🚜 Tecnologia pode reduzir até 30% do desperdício.</div>
+    </div>
+  </section>
+
+  <!-- QUIZ -->
+  <section id="quiz" class="section">
+    <h2>Quiz Interativo</h2>
+
+    <div class="quiz-box">
+      <div id="quizContainer"></div>
+      <button id="nextBtn">Próxima</button>
+      <p id="score"></p>
+    </div>
+  </section>
+
+  <!-- CONCLUSÃO -->
+  <section class="conclusion">
+    <div>
+      <h2>Produzir mais não precisa significar destruir mais.</h2>
+      <p>
+        O equilíbrio entre tecnologia, produtividade e preservação ambiental é essencial
+        para garantir o futuro do planeta e da agricultura.
+      </p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>Projeto escolar - Sustentabilidade no Agronegócio</p>
+    <p>Referências: estudos ambientais e agricultura moderna</p>
+    <p>Contato: agro@sustentavel.com</p>
+  </footer>
+
+</body>
+</html>
